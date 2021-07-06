@@ -4,14 +4,14 @@
 
 To-Do List com itens de material escolar feita com HTML, CSS e Javascript.
 
-<u> 
-<li> Lista de material completa</li>
-<img src="listamaterial1"> <br>
-<img src="listamaterial2"> 
+ 
+ <h3>Lista de material completa : </h3>
+<img src="listamaterial1.png"> 
+<img src="listamaterial2.png"> 
 
-<li> Lista de material comprado</li>
-<img src="comprado">
-<li> Lista de material que falta comprar</li>
-<img src="faltacomprar">
+<h3> Lista de material comprado :</h3>
+<img src="comprado.png">
+<h3> Lista de material que falta comprar :</h3>
+<img src="faltacomprar.png">
 
-</ul>
+
