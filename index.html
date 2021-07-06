@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>To-Do Lista de Materiais</title>
+    <link rel="icon"  href="https://papelariacassiana.com.br/wp-content/uploads/2017/10/Material-Escolar-em-Vicente-de-Carvalho-Lapis-de-Cor.jpg">
+</head>
+<body>
+    <!-- TÍTULO -->
+    <header>
+        
+        <h1>LISTA DE MATERIAL ESCOLAR</h1>
+    </header>
+    <!-- INPUT FIELD TO ENTER TASK AND DROPDOWN FILTER -->
+    <form>
+        <input type="text" placeholder="Insira o material escolar" class="todo_input" />
+        <button class="todo_button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter_todo">
+                <option value="all">Lista Completa</option>
+                <option value="completed">Comprado</option>
+                <option value="uncompleted">Falta Comprar</option>
+            </select>
+        </div>
+    </form>
+    <!-- CONTAINER FOR DISPLAYING TO-DO LIST BY ADDING TASKS DYNAMICALLY USING JAVASCRIPT -->
+    <div class="todo_container">
+        <ul class="todo_list"></ul>
+    </div>
+    <!-- ADICIONANDO O JAVASCRIPT -->
+    <script src="javascript.js"></script>
+    <footer >
+       
+       
+        <div id="container-rodape" style="clear: both;"> <!--INICIO CONTAINER-RODAPÉ-->
+              
+         
+    
+          <div id="rodape">
+            &copy; Copyright 2021 Nyth
+    
+          </div>
+              
+            </div> <!--FIM CONTAINER-RODAPÉ-->
+  
+            
+      </footer>
+</body>
+</html>
